@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100em;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  text-decoration: none;
+  padding: 20px;
+  margin: 10px;
+  font-size: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(207, 230, 255);
+  font-family: "Nunito", sans-serif;
+}
+.circle{
+    z-index: -10;
+    position: relative;
+    top: -1100px;
+    left: -200px;
+    width: 122vw;
+    height: 122vw;
+    background: rgb(166,214,255);
+    background: linear-gradient(90deg, rgb(144, 203, 255) 0%, rgba(20,143,255,1) 100%);
+    border-radius: 50%;
+}
+
+.slogan{
+    position: relative;
+    top: -255vh;
+    left: 15vw;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(252, 253, 255);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.threeimg{
+    position: relative;
+    top: -137vw;
+    left: 40vw;
+    height: 30vw;
+}
+
+.chatimg{
+    position: relative;
+    top: -165vw;
+    left: 34vw;
+    height: 30px;
+}
+
+.smallSlogan{
+    position: relative;
+    top: -165vw;
+    left: 58vw;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(252, 253, 255);
+    font-family: 'Quicksand', sans-serif;
+}
+/* design of contact form */
+
+.main_design{
+    margin-top: -30%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -1300px;
+    left: -70px;
+    width: 100vw;
+    height: 100em;
+}
+
+.main_text p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    /* color: rgb(237, 244, 255); */
+    text-align: center;
+    color: rgb(120, 174, 255);
+    cursor: pointer;
+    height: fit-content;
+}
+
+.main_text h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    color: rgb(116, 169, 255);
+    text-align: center;
+    cursor: pointer;
+}
+
+.manvector{
+    position: relative;
+    top: -30px;
+    left: 220px;
+    width: 40vw;
+}
