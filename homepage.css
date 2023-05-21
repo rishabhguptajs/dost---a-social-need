@@ -3,8 +3,12 @@ body {
   padding: 0;
   overflow-x: hidden;
   height: 100em;
-  scroll-behavior: smooth;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+
 
 body::-webkit-scrollbar{
     display: none;
