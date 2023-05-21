@@ -352,3 +352,98 @@ nav ul li a:hover{
     transition-duration: 0.2s;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+    }
+  
+    .navbar .logo {
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+      font-size: 20px;
+    }
+  
+    .navbar ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navbar li {
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .navbar li:last-child {
+      border-bottom: none;
+    }
+  
+    .navbar li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+  
+    .navbar li a:hover {
+      background-color: #ddd;
+    }
+  
+    .content {
+      margin-top: 60px;
+    }
+  
+    .manvector {
+      top: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+  
+    .aboutus {
+      top: -70px;
+    }
+  
+    .contact {
+      top: -50px;
+    }
+  
+    footer {
+      padding: 10px 0;
+    }
+    .email-password-page{
+        background: transparent;
+    }
+    .login_signup_page{
+        background: transparent;
+    }
+    .openingpage{
+        background: transparent;
+    }
+    .main_content{
+        background: transparent;
+    }
+    .openingpage img{
+        display: none;
+    }
+    .main_content img{
+        display: none;
+    }
+    .email-password-page img{
+        display: none;
+    }
+    .login_signup_page img{
+        display: none;
+    }
+  }
+  
