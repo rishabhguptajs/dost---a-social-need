@@ -3,6 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   height: 100em;
+  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar{
@@ -33,6 +34,11 @@ nav ul li a {
   text-decoration: none;
   color: rgb(207, 230, 255);
   font-family: "Nunito", sans-serif;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
 }
 .circle{
     z-index: -10;
@@ -97,7 +103,7 @@ nav ul li a {
     font-size: 15px;
     /* color: rgb(237, 244, 255); */
     text-align: center;
-    color: rgb(120, 174, 255);
+    color: rgb(104, 182, 255);
     cursor: pointer;
     height: fit-content;
 }
@@ -105,7 +111,7 @@ nav ul li a {
 .main_text h1{
     font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    color: rgb(116, 169, 255);
+    color: rgba(20,143,255,1);
     text-align: center;
     cursor: pointer;
 }
@@ -115,4 +121,214 @@ nav ul li a {
     top: -30px;
     left: 220px;
     width: 40vw;
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(244, 248, 255);
+}
+
+.aboutus h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(116, 169, 255);
+    text-align: center;
+    cursor: default;
+}
+
+.aboutus p{
+    width: 60vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(120, 174, 255);
+    text-align: center;
+    cursor: default;
+    height: fit-content;
+}
+
+.contact-form{
+    /* margin-top: 100px; */
+    margin-bottom: 150px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 500px;
+    background: #c6ecff;
+    background: radial-gradient(at left center, #5cccfc, #57d2ff);  
+}
+
+.contact-form h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(249, 251, 255);
+    text-align: center;
+    cursor: default;
+}
+
+.contact-form input {
+    width: 50vw;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(120, 174, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.contact-form textarea{
+    width: 50vw;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(120, 174, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+#submit:hover{
+    transition-duration: 0.2s;
+    background-color: rgb(89, 152, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.ourapp{
+    position: relative;
+    top: -400vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 248, 255);
+}
+
+.openingpage{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+.openingpage h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(63, 140, 255);
+    text-align: center;
+    cursor: default;
+}
+
+.openingpage p{
+    width: 60vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: rgb(120, 174, 255);
+    text-align: left;
+    cursor: default;
+    height: fit-content;
+}
+
+.openingpage img{  
+    height: 50vh;
+    padding: 130px;
+}
+.login_signup_page{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.login_signup_page h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(63, 140, 255);
+    text-align: center;
+    cursor: default;
+    text-decoration: underline;
+}
+
+.login_signup_page p{
+    width: 60vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(120, 174, 255);
+    text-align: center;
+    cursor: default;
+    height: fit-content;
+}
+
+.login_signup_page img{  
+    height: 50vh;
+    padding: 80px;
+}
+
+.email-password-page{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.email-password-page h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(63, 140, 255);
+    text-align: center;
+    cursor: default;
+    text-decoration: underline;
+}
+
+.email-password-page p{
+    width: 60vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(120, 174, 255);
+    text-align: center;
+    cursor: default;
+    height: fit-content;
+}
+
+.email-password-page img{  
+    height: 50vh;
+    padding: 110px;
+}
+.main_content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.main_content h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: rgb(63, 140, 255);
+    text-align: center;
+    cursor: default;
+    text-decoration: underline;
+}
+
+.main_content p{
+    width: 60vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: rgb(120, 174, 255);
+    text-align: center;
+    cursor: default;
+    height: fit-content;
+}
+
+.main_content img{  
+    height: 50vh;
+    padding: 80px;
 }
